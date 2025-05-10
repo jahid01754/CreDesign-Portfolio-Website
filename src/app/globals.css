@@ -3,6 +3,68 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --bg-color: #fff5eb;
+  --bg-color-btn: #ff6b00;
+  --bg-color-primary: #ff6b00;
+}
+
+@layer utilities {
+  @keyframes diagonalFloat {
+    0%,
+    100% {
+      transform: translate(0, 0);
+    }
+    50% {
+      transform: translate(-20px, -20px);
+    }
+  }
+
+  @keyframes upDownFloat {
+    0%,
+    100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-20px);
+    }
+  }
+
+  .animate-diagonalFloat {
+    animation: diagonalFloat 3s ease-in-out infinite;
+  }
+
+  .animate-upDownFloat {
+    animation: upDownFloat 2s ease-in-out infinite;
+  }
+}
+/* 
+@keyframes upDownFloat {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}
+
+
+.animate-diagonalFloat {
+  animation: diagonalFloat 3s ease-in-out infinite;
+}
+
+.animate-upDownFloat {
+  animation: upDownFloat 2s ease-in-out infinite;
+} */
+
+.bg-dynamic {
+  background-color: var(--bg-color);
+}
+.bg-btn {
+  background-color: var(--bg-color-btn);
+}
+.bg-primary {
+  background-color: var(--bg-color-primary);
 }
 
 @theme inline {

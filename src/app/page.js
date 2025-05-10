@@ -1,6 +1,14 @@
+import HomeBanner from "@/Components/HomeBanner/HomeBanner";
 import NavBar from "@/Components/NavBar/NavBar";
 import Image from "next/image";
 
 export default function Home() {
-  return <NavBar />;
+  return (
+    <>
+      <div className="bg-dynamic h-full">
+        <NavBar />
+        <HomeBanner />
+      </div>
+    </>
+  );
 }
