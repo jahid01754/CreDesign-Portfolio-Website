@@ -42,11 +42,11 @@ export default function MyBLog() {
           </div>
 
           {/* body */}
-          <div className="grid grid-cols-1 md:grid-cols-3 justify-evenly items-center mt-20  gap-10 mx-5">
+          <div className="grid grid-cols-1 md:grid-cols-3 justify-evenly items-center mt-20  gap-4 mx-5">
             {blog.map((item, index) => (
               <div
                 key={index}
-                className="rounded-md border border-orange-200  h-full"
+                className="rounded-md border border-orange-200  h-full "
               >
                 <div className="hover:brightness-50 transition-all duration-500">
                   <Image

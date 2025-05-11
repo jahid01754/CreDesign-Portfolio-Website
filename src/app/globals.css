@@ -58,4 +58,9 @@
   .animate-rise-up {
     animation: rise-up 1s ease-out forwards;
   }
+
+  .container {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
 }

@@ -38,27 +38,27 @@ export default function MyContact() {
                 <input
                   type="text"
                   placeholder="Your Name"
-                  className="w-full p-4 border border-orange-200 rounded-md outline-none focus:outline-2 focus:outline-slate-300  focus:ring-2 focus:ring-contactRing transition-all duration-300 focus:shadow-lg"
+                  className="w-full p-4 border border-orange-200 rounded-md outline-none focus:outline-none focus:ring-0 focus:shadow-lg transition-all duration-300"
                 />
                 <input
                   type="email"
                   placeholder="Your Email"
-                  className="w-full p-4 border border-orange-200 rounded-md outline-none focus:outline-2 focus:outline-slate-300  focus:ring-2 focus:ring-contactRing transition-all duration-300 focus:shadow-lg"
+                  className="w-full p-4 border border-orange-200 rounded-md outline-none focus:outline-none focus:ring-0 focus:shadow-lg transition-all duration-300"
                 />
                 <input
                   type="text"
                   placeholder="Your Phone"
-                  className="w-full p-4 border border-orange-200 rounded-md outline-none focus:outline-2 focus:outline-slate-300  focus:ring-2 focus:ring-contactRing transition-all duration-300 focus:shadow-lg"
+                  className="w-full p-4 border border-orange-200 rounded-md outline-none focus:outline-none focus:ring-0 focus:shadow-lg transition-all duration-300"
                 />
                 <input
                   type="text"
                   placeholder="Subject"
-                  className="w-full p-4 border border-orange-200 rounded-md outline-none focus:outline-2 focus:outline-slate-300  focus:ring-2 focus:ring-contactRing transition-all duration-300 focus:shadow-lg"
+                  className="w-full p-4 border border-orange-200 rounded-md outline-none focus:outline-none focus:ring-0 focus:shadow-lg transition-all duration-300"
                 />
                 <textarea
                   type="text"
                   placeholder="Message"
-                  className="w-full p-4 border border-orange-200 rounded-md outline-none focus:outline-2 focus:outline-slate-300 focus:ring-2 focus:ring-contactRing transition-all duration-300 ease-in-out col-span-1 sm:col-span-2 min-h-40 focus:shadow-lg resize-y leading-normal"
+                  className="w-full p-4 border border-orange-200 rounded-md outline-none focus:outline-none focus:ring-0  transition-all duration-300 ease-in-out col-span-1 sm:col-span-2 min-h-40 focus:shadow-lg resize-y leading-normal"
                 />
 
                 {/* Button */}
