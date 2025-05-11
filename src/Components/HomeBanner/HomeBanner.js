@@ -92,7 +92,7 @@ export default function HomeBanner() {
 
               <div className="relative ">
                 <Image
-                  src="/pic/bannerimg.png"
+                  src="/pic/bannerImg.png"
                   alt="Overlay Image"
                   width="1550"
                   height="1800"
