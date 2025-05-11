@@ -1,5 +1,6 @@
 import AboutSection from "@/Components/AboutSection/AboutSection";
 import ClientFeedback from "@/Components/ClientFeedBack/ClientFeedBack";
+import FooterSection from "@/Components/FooterSection/FooterSection";
 import HomeBanner from "@/Components/HomeBanner/HomeBanner";
 import MyBLog from "@/Components/MyBlog/MyBlog";
 import MyContact from "@/Components/MyContact/MyContact";
@@ -23,6 +24,7 @@ export default function Home() {
         <Partners />
         <MyBLog />
         <MyContact />
+        <FooterSection />
       </div>
     </>
   );
