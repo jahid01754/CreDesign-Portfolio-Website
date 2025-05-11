@@ -1,4 +1,5 @@
 import AboutSection from "@/Components/AboutSection/AboutSection";
+import ClientFeedback from "@/Components/ClientFeedBack/ClientFeedBack";
 import HomeBanner from "@/Components/HomeBanner/HomeBanner";
 import NavBar from "@/Components/NavBar/NavBar";
 import ResumeComponent from "@/Components/ResumeComponent/Resume";
@@ -14,6 +15,7 @@ export default function Home() {
         <AboutSection />
         <ServiceSection />
         <ResumeComponent />
+        <ClientFeedback />
       </div>
     </>
   );
