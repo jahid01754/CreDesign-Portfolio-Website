@@ -3,6 +3,7 @@ import ClientFeedback from "@/Components/ClientFeedBack/ClientFeedBack";
 import HomeBanner from "@/Components/HomeBanner/HomeBanner";
 import MyPortfolio from "@/Components/MyPortfolio/MyPortfolio";
 import NavBar from "@/Components/NavBar/NavBar";
+import Partners from "@/Components/Partners/Partners";
 import ResumeComponent from "@/Components/ResumeComponent/Resume";
 import ServiceSection from "@/Components/Service/Service";
 import Image from "next/image";
@@ -18,6 +19,7 @@ export default function Home() {
         <ResumeComponent />
         <ClientFeedback />
         <MyPortfolio />
+        <Partners />
       </div>
     </>
   );
