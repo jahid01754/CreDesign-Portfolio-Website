@@ -8,6 +8,7 @@ import MyPortfolio from "@/Components/MyPortfolio/MyPortfolio";
 import NavBar from "@/Components/NavBar/NavBar";
 import Partners from "@/Components/Partners/Partners";
 import ResumeComponent from "@/Components/ResumeComponent/Resume";
+import ScrollToTop from "@/Components/ScrollToTop/ScrollToTop";
 import ServiceSection from "@/Components/Service/Service";
 
 export default function Home() {
@@ -16,6 +17,7 @@ export default function Home() {
       <div className=" bg-dynamic h-full overflow-hidden">
         <NavBar />
         <HomeBanner />
+        <ScrollToTop />
         <AboutSection />
         <ServiceSection />
         <ResumeComponent />

@@ -63,4 +63,8 @@
     padding-left: 2rem;
     padding-right: 2rem;
   }
+
+  html {
+    @apply scroll-smooth;
+  }
 }
