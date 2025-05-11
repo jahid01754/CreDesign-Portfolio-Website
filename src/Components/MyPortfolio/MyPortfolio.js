@@ -140,7 +140,7 @@ export default function MyPortfolio() {
                     />
 
                     {/* Overlay from Top */}
-                    <div className="absolute bg-black bg-opacity-50 top-0 left-0 w-full h-full flex justify-center items-center transition-transform duration-500 transform -translate-y-full group-hover:translate-y-0"></div>
+                    <div className="absolute bg-black/20 bg-opacity-50 top-0 left-0 w-full h-full flex justify-center items-center transition-transform duration-500 transform -translate-y-full group-hover:translate-y-0"></div>
 
                     {/* Overlay Text from Bottom */}
                     <div className="absolute bg-primary bottom-10 left-1/2 -translate-x-1/2 w-[80%] h-[40%] flex flex-col justify-center items-center transition-transform duration-500 transform translate-y-[200%] group-hover:translate-y-0 rounded-lg">
