@@ -33,7 +33,9 @@ export default function HomeBanner() {
                     className="left-0"
                   />
 
-                  <h1 className="text-2xl ">I am a Frontend Developer</h1>
+                  <h1 className="text-2xl text-black">
+                    I am a Frontend Developer
+                  </h1>
                 </div>
 
                 <div className="w-full mt-4 text-[50px] font-bold  ">
