@@ -13,7 +13,7 @@ import ServiceSection from "@/Components/Service/Service";
 export default function Home() {
   return (
     <>
-      <div className="bg-dynamic h-full">
+      <div className="bg-dynamic h-full overflow-hidden">
         <NavBar />
         <HomeBanner />
         <AboutSection />
