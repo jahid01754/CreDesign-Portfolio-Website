@@ -80,7 +80,7 @@ export default function HomeBanner() {
             </div>
 
             {/* Right Section */}
-            <div className="relative flex justify-center items-center order-1 lg:order-2 w-full ">
+            <div className="relative flex justify-end items-center order-1 lg:order-2 w-full ">
               <div className="absolute  w-fit h-auto">
                 {/* <div className="absolute top-14 right-auto animate-diagonalFloat translate-x-4  md:left-auto"> */}
                 <Image
