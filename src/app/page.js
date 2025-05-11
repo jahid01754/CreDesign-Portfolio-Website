@@ -1,6 +1,7 @@
 import AboutSection from "@/Components/AboutSection/AboutSection";
 import ClientFeedback from "@/Components/ClientFeedBack/ClientFeedBack";
 import HomeBanner from "@/Components/HomeBanner/HomeBanner";
+import MyBLog from "@/Components/MyBlog/MyBlog";
 import MyPortfolio from "@/Components/MyPortfolio/MyPortfolio";
 import NavBar from "@/Components/NavBar/NavBar";
 import Partners from "@/Components/Partners/Partners";
@@ -20,6 +21,7 @@ export default function Home() {
         <ClientFeedback />
         <MyPortfolio />
         <Partners />
+        <MyBLog />
       </div>
     </>
   );
